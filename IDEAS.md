@@ -183,16 +183,19 @@ This document contains all feature ideas and improvements for MyIceColdWallet. I
 - [x] WhatsOnChain explorer links
 
 #### 🚧 Planned
-- [ ] HandCash Connect integration
-- [ ] Money Button integration
-- [ ] Relay.x API support
-- [ ] BSV Desktop connector (native bridge)
-- [ ] PayMail protocol support (full implementation)
-- [ ] Payment Protocol (BIP70)
-- [ ] WalletConnect protocol
-- [ ] DID authentication (Decentralized Identity)
-- [ ] NFT marketplace integration
-- [ ] BSV token protocols (STAS, Run)
+- [ ] **[Talkmaster](https://TalkMaster.The-Internet-of-Money.com)** - BSV messaging integration
+- [ ] **[Rockwallet](https://Rockwallet.com)** - Multi-currency wallet connector
+- [ ] **[Centi](https://Centi.ch)** - Swiss BSV payment processor
+- [ ] **[Yours Wallet](https://Yours.org)** - Social wallet platform
+- [ ] **[BSV Browser](https://BSVBrowser.com)** - Blockchain-native browser integration
+- [ ] **HandCash Connect** - Social money API
+- [ ] **BSV Desktop** - Native desktop connector (native bridge)
+- [ ] **PayMail protocol** - Full implementation (BIP270)
+- [ ] **Payment Protocol** (BIP70)
+- [ ] **WalletConnect protocol**
+- [ ] **DID authentication** (Decentralized Identity)
+- [ ] **NFT marketplace** integration
+- [ ] **BSV token protocols** (STAS, Run)
 
 ---
 
@@ -250,6 +253,30 @@ This document contains all feature ideas and improvements for MyIceColdWallet. I
 - [ ] Social recovery mechanisms
 - [ ] Decentralized key management
 - [ ] Hardware security module (HSM) support
+
+---
+
+### 📝 Document Management
+
+#### 🚧 Planned - Document Signing
+- [ ] **PDF Document Signing** with blockchain proof
+- [ ] **Multi-party Document Signing** (contracts, agreements)
+- [ ] **Timestamp Service** (blockchain-based notarization)
+- [ ] **Document Hash Storage** on BSV blockchain
+- [ ] **Verify Document Authenticity** via blockchain lookup
+- [ ] **Document Templates** (NDAs, contracts, certificates)
+- [ ] **Digital Signature Verification** (legal compliance)
+- [ ] **Document Versioning** with blockchain audit trail
+
+#### Use Cases
+- Legal contracts & agreements
+- Employment contracts
+- NDAs (Non-Disclosure Agreements)
+- Property deeds
+- Academic certificates
+- Medical records
+- Government documents
+- Intellectual property registration
 
 ---
 
