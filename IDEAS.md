@@ -40,6 +40,12 @@ This document contains all feature ideas and improvements for MyIceColdWallet. I
 - [x] Debug Mode toggle for developers
 
 #### 🚧 Planned
+- [ ] **Voice Biometric Multi-FA Login System**
+  - Voice recognition authentication
+  - Face ID / Touch ID
+  - Fingerprint scanning
+  - PIN code (offline mode)
+  - Multi-factor combination (2FA, 3FA, 4FA)
 - [ ] Multi-signature wallet support (2-of-3, 3-of-5)
 - [ ] Time-locked transactions (nLockTime)
 - [ ] Hardware wallet integration (Ledger, Trezor)
@@ -90,7 +96,6 @@ This document contains all feature ideas and improvements for MyIceColdWallet. I
 - [x] BEEF transaction format support
 
 #### 🚧 Planned
-- [ ] Replace-by-fee (RBF) support
 - [ ] Child-pays-for-parent (CPCP)
 - [ ] Transaction templates (recurring payments)
 - [ ] Scheduled transactions
@@ -99,11 +104,11 @@ This document contains all feature ideas and improvements for MyIceColdWallet. I
 - [ ] Transaction priority settings
 - [ ] OP_RETURN data encoding
 - [ ] Smart contract deployment
-- [ ] Atomic swaps (cross-chain)
 - [ ] Payment channels
 - [ ] Lightning Network integration
 - [ ] Transaction history filtering & export
 - [ ] Advanced coin selection algorithms
+- [ ] Atomic swaps (BSV-native)
 
 ---
 

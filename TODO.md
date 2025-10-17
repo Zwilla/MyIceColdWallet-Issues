@@ -1,64 +1,64 @@
-# =Ë TODO - Roadmap & Planned Features
+# ğŸ“‹ TODO - Roadmap & Planned Features
 
-<ì<ç **English Version** | [<é<ê Deutsche Version](TODO-DE.md)
+ğŸ‡¬ğŸ‡§ **English Version** | [ğŸ‡©ğŸ‡ª Deutsche Version](TODO-DE.md)
 
 ---
 
-## < Ecosystem Overview
+## ğŸŒ Ecosystem Overview
 
 **The-Internet-of-Money.com** - Main Hub for BSV Ecosystem Services
 
 ### Core Applications
 
 1. **[MyIceColdWallet.com](https://MyIceColdWallet.com)**
-   -  Air-gapped offline transaction signing
-   -  QR code based signing workflow
-   -  Hardware security (Secure Enclave/TEE)
-   -  Passkey authentication (online)
-   -  PIN protection with auto-wipe (offline)
-   - =§ Native mobile apps (iOS/Android)
+   - âœ… Air-gapped offline transaction signing
+   - âœ… QR code based signing workflow
+   - âœ… Hardware security (Secure Enclave/TEE)
+   - âœ… Passkey authentication (online)
+   - âœ… PIN protection with auto-wipe (offline)
+   - ğŸš§ Native mobile apps (iOS/Android)
 
 2. **[MyTokenWallet.com](https://MyTokenWallet.com)**
-   - =§ Client-side wallet application
-   - =§ Transaction creation & broadcasting
-   - =§ Signing via connected wallet OR MyIceColdWallet.com
-   - =§ Token management (STAS, Run, etc.)
-   - =§ Multi-signature support
+   - ğŸš§ Client-side wallet application
+   - ğŸš§ Transaction creation & broadcasting
+   - ğŸš§ Signing via connected wallet OR MyIceColdWallet.com
+   - ğŸš§ Token management (STAS, Run, etc.)
+   - ğŸš§ Multi-signature support
 
 ---
 
-## = Service Integrations
+## ğŸ”— Service Integrations
 
 ### Communication Services
-- =§ **Talkmaster** - BSV-based messaging
+- ğŸš§ **Talkmaster** - BSV-based messaging
   - End-to-end encrypted messaging
   - PayMail integration
   - File sharing with blockchain proof
 
 ### Wallet Providers
-- =§ **Rockwallet** - Multi-currency wallet
-- =§ **Centi** - Swiss BSV payment solution
-- =§ **Yours Wallet** - Social wallet platform
-- =§ **BSV Desktop** - Native desktop connector
-- =§ **HandCash** - Social money app
-- L ~~Money Button~~ (deprecated)
-- L ~~Relay.x~~ (deprecated)
+- ğŸš§ **Rockwallet** - Multi-currency wallet
+- ğŸš§ **Centi** - Swiss BSV payment solution
+- ğŸš§ **Yours Wallet** - Social wallet platform
+- ğŸš§ **BSV Desktop** - Native desktop connector
+- ğŸš§ **HandCash** - Social money app
+- âŒ ~~Money Button~~ (deprecated)
+- âŒ ~~Relay.x~~ (deprecated)
 
 ### Browsers & Tools
-- =§ **BSV Browser** - Blockchain-native browser
-- =§ **Rockwallet Browser Extension**
-- =§ **MetaNet Client** - Decentralized web browser
+- ğŸš§ **BSV Browser** - Blockchain-native browser
+- ğŸš§ **Rockwallet Browser Extension**
+- ğŸš§ **MetaNet Client** - Decentralized web browser
 
 ---
 
-## =İ Document Management
+## ğŸ“ Document Management
 
 ### Document Signing
-- =§ **PDF Document Signing** with blockchain proof
-- =§ **Multi-party Document Signing** (contracts)
-- =§ **Timestamp Service** (notarization)
-- =§ **Verify Document Authenticity**
-- =§ **Document Hash Storage** on-chain
+- ğŸš§ **PDF Document Signing** with blockchain proof
+- ğŸš§ **Multi-party Document Signing** (contracts)
+- ğŸš§ **Timestamp Service** (notarization)
+- ğŸš§ **Verify Document Authenticity**
+- ğŸš§ **Document Hash Storage** on-chain
 
 ### Use Cases
 - Legal contracts
@@ -70,9 +70,9 @@
 
 ---
 
-## = Security Features
+## ğŸ” Security Features
 
-### Current ()
+### Current (âœ…)
 - Air-gapped signing via QR codes
 - Passkey authentication (FIDO2)
 - PIN protection with auto-wipe
@@ -81,7 +81,13 @@
 - Session timeout (15 min)
 - Frame ID system
 
-### Planned (=§)
+### Planned (ğŸš§)
+- **Voice Biometric Multi-FA Login System**
+  - Voice recognition authentication
+  - Face ID / Touch ID
+  - Fingerprint scanning
+  - PIN code (offline mode)
+  - Multi-factor combination (2FA, 3FA, 4FA)
 - Multi-signature wallets (2-of-3, 3-of-5)
 - Hardware wallet integration (Ledger, Trezor)
 - Time-locked transactions
@@ -92,9 +98,9 @@
 
 ---
 
-## =¸ Transaction Features
+## ğŸ’¸ Transaction Features
 
-### Current ()
+### Current (âœ…)
 - Basic transaction creation
 - Custom fee rates
 - Multi-recipient transactions
@@ -102,25 +108,28 @@
 - Signed transaction scanner (husky.txres@1)
 - BEEF format support
 
-### Planned (=§)
-- Replace-by-fee (RBF)
+### Planned (ğŸš§)
 - Child-pays-for-parent (CPCP)
 - Transaction templates
 - Scheduled transactions
 - Batch payments (CSV import)
 - Smart fee estimation
 - OP_RETURN data encoding
-- Atomic swaps
+- Payment channels
+- Lightning Network integration
+- Transaction history filtering & export
+- Advanced coin selection algorithms
+- Atomic swaps (BSV-native)
 
 ---
 
-## < PayMail Protocol
+## ğŸŒ PayMail Protocol
 
-### Current ()
+### Current (âœ…)
 - Basic PayMail address support
 - PayMail in bounty system
 
-### Planned (=§)
+### Planned (ğŸš§)
 - Full PayMail implementation (BIP270)
 - PayMail Forwarding Service
 - PayMail Directory
@@ -130,37 +139,37 @@
 
 ---
 
-## <¨ User Interface
+## ğŸ¨ User Interface
 
-### Current ()
+### Current (âœ…)
 - Responsive mobile design
 - Frame ID footer
 - Modal dialogs
 - Toast notifications
 - Loading states
 
-### Planned (=§)
+### Planned (ğŸš§)
 - **Multi-language Support (i18n)**:
-  - <ì<ç English
-  - <é<ê German
-  - <ê<ø Spanish
-  - <ë<÷ French
-  - <è<ó Chinese
-  - <ï<õ Japanese
-  - <õ<ù Portuguese
-  - <î<ù Italian
-  - <÷<ú Russian
+  - ğŸ‡¬ğŸ‡§ English
+  - ğŸ‡©ğŸ‡ª German
+  - ğŸ‡ªğŸ‡¸ Spanish
+  - ğŸ‡«ğŸ‡· French
+  - ğŸ‡¨ğŸ‡³ Chinese
+  - ğŸ‡¯ğŸ‡µ Japanese
+  - ğŸ‡µğŸ‡¹ Portuguese
+  - ğŸ‡®ğŸ‡¹ Italian
+  - ğŸ‡·ğŸ‡º Russian
 - Theme customization
 - Dark mode
 - Accessibility (WCAG 2.1 AA)
 - Keyboard shortcuts
-- Voice commands
+- Voice commands (optional)
 
 ---
 
-## =ñ Mobile Applications
+## ğŸ“± Mobile Applications
 
-### iOS App (=§)
+### iOS App (ğŸš§)
 - React Native implementation
 - Face ID / Touch ID
 - NFC payment support
@@ -168,7 +177,7 @@
 - Push notifications
 - Widget support
 
-### Android App (=§)
+### Android App (ğŸš§)
 - React Native implementation
 - Biometric authentication
 - NFC payment support
@@ -178,9 +187,9 @@
 
 ---
 
-## = Blockchain Integrations
+## ğŸ”— Blockchain Integrations
 
-### BSV Services (=§)
+### BSV Services (ğŸš§)
 - **Talkmaster** - Messaging
 - **Rockwallet** - Payments
 - **Centi** - Payment processor
@@ -190,8 +199,8 @@
 - **HandCash Connect** - API
 - **PayMail Protocol** - Addressing
 
-### Blockchain APIs (=§)
-- WhatsOnChain ( current)
+### Blockchain APIs (ğŸš§)
+- WhatsOnChain (âœ… current)
 - Taal Console API
 - GorillaPool API
 - Own BSV node connection
@@ -199,15 +208,15 @@
 
 ---
 
-## =à Developer Features
+## ğŸ› ï¸ Developer Features
 
-### Current ()
+### Current (âœ…)
 - Debug Mode
 - Frame ID system
 - Console logging
 - GitHub issue integration
 
-### Planned (=§)
+### Planned (ğŸš§)
 - API documentation (Swagger/OpenAPI)
 - SDK for third-party apps
 - Webhook support
@@ -218,9 +227,9 @@
 
 ---
 
-## =Ê Analytics & Reporting
+## ğŸ“Š Analytics & Reporting
 
-### Planned (=§)
+### Planned (ğŸš§)
 - Transaction history with charts
 - Portfolio value tracking (USD/EUR)
 - Tax reporting export (CSV/PDF)
@@ -232,9 +241,9 @@
 
 ---
 
-## <¯ Token Standards
+## ğŸ¯ Token Standards
 
-### Planned (=§)
+### Planned (ğŸš§)
 - **STAS Tokens** - Simplified Token Protocol
 - **Run Protocol** - Smart contracts on BSV
 - **NFT Support** - Non-fungible tokens
@@ -244,9 +253,9 @@
 
 ---
 
-## < The-Internet-of-Money.com Hub
+## ğŸŒ The-Internet-of-Money.com Hub
 
-### Planned Features (=§)
+### Planned Features (ğŸš§)
 - **Service Directory** - All BSV services listed
 - **Unified Login** - Single sign-on across services
 - **Cross-Service Payments** - Seamless integration
@@ -257,14 +266,14 @@
 
 ---
 
-## =Å Timeline
+## ğŸ“… Timeline
 
 ### Q1 2025 (Current)
--  Frame ID system
--  Bounty system
--  Issue templates
-- =§ Document signing
-- =§ Multi-language support
+- âœ… Frame ID system
+- âœ… Bounty system
+- âœ… Issue templates
+- ğŸš§ Document signing
+- ğŸš§ Multi-language support
 
 ### Q2 2025
 - Native mobile apps (iOS/Android)
@@ -289,34 +298,34 @@
 
 ### 2026+
 - Lightning Network integration
-- Cross-chain atomic swaps
+- BSV-native atomic swaps
 - DID authentication
 - Zero-knowledge proofs
 - Quantum-resistant crypto
 
 ---
 
-## < Bounty System
+## ğŸ Bounty System
 
 Want to help? Earn **1000 satoshi** for:
 - New bug reports
 - Feature ideas
 - Documentation improvements
 
-=Ö See [BOUNTY-SYSTEM.md](BOUNTY-SYSTEM.md) for details.
+ğŸ“– See [BOUNTY-SYSTEM.md](BOUNTY-SYSTEM.md) for details.
 
 ---
 
-## =¬ Contributing
+## ğŸ’¬ Contributing
 
-- = [Report Bug](https://github.com/Zwilla/MyIceColdWallet-Issues/issues/new?template=bug_report.md)
-- =¡ [Suggest Feature](https://github.com/Zwilla/MyIceColdWallet-Issues/issues/new?template=feature_request.md)
-- =° [View Ideas](IDEAS.md)
-- <é<ê [Deutsche Version](TODO-DE.md)
+- ğŸ› [Report Bug](https://github.com/Zwilla/MyIceColdWallet-Issues/issues/new?template=bug_report.md)
+- ğŸ’¡ [Suggest Feature](https://github.com/Zwilla/MyIceColdWallet-Issues/issues/new?template=feature_request.md)
+- ğŸ’° [View Ideas](IDEAS.md)
+- ğŸ‡©ğŸ‡ª [Deutsche Version](TODO-DE.md)
 
 ---
 
 **Last Updated**: 2025-10-17
-**Status**: =â Active Development
+**Status**: ğŸŸ¢ Active Development
 
-*Building the future of BSV payments, one feature at a time.* =€
+*Building the future of BSV payments, one feature at a time.* ğŸš€
