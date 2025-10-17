@@ -46,8 +46,16 @@ This document contains all feature ideas and improvements for MyIceColdWallet. I
   - Fingerprint scanning
   - PIN code (offline mode)
   - Multi-factor combination (2FA, 3FA, 4FA)
-- [ ] Multi-signature wallet support (2-of-3, 3-of-5)
-- [ ] Time-locked transactions (nLockTime)
+- [ ] **Iris Recognition** for high-security environments
+- [ ] **Advanced Multi-Signature Wallets**
+  - Custom M-of-N schemes (2-of-3, 3-of-5, 4-of-7, etc.)
+  - Time-locked transactions with nLockTime
+  - Threshold-based approvals
+  - Geographic approval conditions
+- [ ] **Enhanced Air-Gap Security**
+  - QR code encryption with AES-256
+  - Manual transaction signing via numeric codes
+  - Offline key generation with physical dice
 - [ ] Hardware wallet integration (Ledger, Trezor)
 - [ ] Backup encryption with user-controlled keys
 - [ ] Emergency recovery mechanism
@@ -55,6 +63,9 @@ This document contains all feature ideas and improvements for MyIceColdWallet. I
 - [ ] Geofencing (disable certain features by location)
 - [ ] Screen recording detection & blocking
 - [ ] Clipboard monitoring protection
+- [ ] Panic button with automatic lock
+- [ ] Hidden operations mode
+- [ ] Tactile feedback for security actions
 
 ---
 
@@ -72,7 +83,6 @@ This document contains all feature ideas and improvements for MyIceColdWallet. I
 #### 🚧 Planned
 - [ ] Address book (contact management)
 - [ ] Custom derivation paths
-- [ ] Multi-coin support (BTC, BCH alongside BSV)
 - [ ] UTXO management & coin control
 - [ ] Address reuse detection & warnings
 - [ ] Cold storage address generation (bulk)
@@ -164,20 +174,26 @@ This document contains all feature ideas and improvements for MyIceColdWallet. I
 
 #### 🚧 Planned
 - [ ] Theme customization (colors, fonts)
-- [ ] Language selection (i18n support)
+- [ ] **Language selection (i18n support)**
   - German (DE)
   - English (EN)
   - Spanish (ES)
   - French (FR)
+  - Portuguese (PT)
+  - Italian (IT)
+  - Russian (RU)
   - Chinese (ZH)
   - Japanese (JP)
-- [ ] Accessibility improvements (WCAG 2.1 AA)
-- [ ] Keyboard shortcuts
-- [ ] Touchscreen gesture support
+- [ ] **Enhanced Accessibility (WCAG 2.1 AA)**
+  - Voice control and voice output
+  - Screen reader optimization
+  - One-handed operation mode
+  - Keyboard shortcuts
+  - Touchscreen gesture support
+  - High contrast mode
+  - Font size settings
+  - Animation toggle (reduce motion)
 - [ ] Voice commands (optional)
-- [ ] High contrast mode
-- [ ] Font size settings
-- [ ] Animation toggle (reduce motion)
 
 ---
 
@@ -214,8 +230,11 @@ This document contains all feature ideas and improvements for MyIceColdWallet. I
 #### 🚧 Planned
 - [ ] Native iOS app (React Native)
 - [ ] Native Android app (React Native)
-- [ ] NFC support for payments
-- [ ] Bluetooth transaction signing
+- [ ] **Hardware Integration**
+  - NFC support for contactless payments
+  - Bluetooth Low Energy (BLE) transaction signing
+  - USB-C hardware token support
+  - Custom hardware wallet designs
 - [ ] Widget support (balance display)
 - [ ] Quick actions (home screen shortcuts)
 - [ ] Share extensions
@@ -258,6 +277,52 @@ This document contains all feature ideas and improvements for MyIceColdWallet. I
 - [ ] Social recovery mechanisms
 - [ ] Decentralized key management
 - [ ] Hardware security module (HSM) support
+
+---
+
+### 🏢 Enterprise & Institutional Features
+
+#### 🚧 Planned - Business Wallet Management
+- [ ] **Multi-User Management**
+  - Role-based access control (RBAC)
+  - Budget limits and spending controls
+  - Team permissions and hierarchies
+  - Audit trails and transaction history
+- [ ] **Compliance & Reporting**
+  - Compliance reporting (Travel Rule, AML)
+  - Transaction monitoring and alerts
+  - Regulatory reporting tools
+  - Privacy-by-design implementation
+- [ ] **Automated Operations**
+  - Automated backup rotation
+  - Scheduled payments and payroll
+  - Invoice generation and accounting integration
+  - Tax report exports (CSV/PDF)
+
+#### 🚧 Planned - Advanced Backup & Recovery
+- [ ] **Distributed Backup Systems**
+  - Shamir's Secret Sharing with geographic distribution
+  - Cloud backup with client-side encryption
+  - Physical backup media support (Cryptosteel, Titanium)
+  - Multi-location redundancy
+- [ ] **Inheritance Planning**
+  - Inheritance protocols with time delays
+  - Multi-factor recovery mechanisms
+  - Emergency contacts with tiered access
+  - Post-mortem access rules
+  - Dead man's switch functionality
+
+#### 🚧 Planned - Privacy Enhancements
+- [ ] **Network Privacy**
+  - Tor integration for anonymous transactions
+  - VPN support
+  - DNS over HTTPS (DoH)
+  - Traffic obfuscation
+- [ ] **BSV Privacy Features**
+  - Stealth addresses
+  - Privacy pools
+  - Coin mixing protocols
+  - Address rotation strategies
 
 ---
 
@@ -309,7 +374,7 @@ This document contains all feature ideas and improvements for MyIceColdWallet. I
 1. DID authentication
 2. PayMail full implementation
 3. NFT & token support
-4. Cross-chain atomic swaps
+4. BSV-native atomic swaps
 
 ---
 
@@ -324,10 +389,10 @@ This document contains all feature ideas and improvements for MyIceColdWallet. I
 ---
 
 **Last Updated**: 2025-10-17
-**Total Ideas**: 100+
+**Total Ideas**: 150+
 **Implemented**: 30+
 **In Progress**: 5
-**Planned**: 65+
+**Planned**: 115+
 
 ---
 
