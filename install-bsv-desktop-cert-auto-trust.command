@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # BSV Desktop Certificate Auto-Trust Installer
-# Downloads and installs BSV Desktop certificate with AUTOMATIC SSL trust
+# Downloads and installs BSV Desktop certificate with AUTOMATIC SSL trust for port 2121
 
 set -e
 
@@ -14,7 +14,7 @@ echo "BSV Desktop Certificate Auto-Trust Installer"
 echo "============================================"
 echo ""
 echo "This script will:"
-echo "1. Download BSV Desktop certificate from GitHub"
+echo "1. Download BSV Desktop certificate from GitHub (port 2121)"
 echo "2. Add to your Keychain"
 echo "3. Set trust to 'Always Trust' for SSL"
 echo ""
